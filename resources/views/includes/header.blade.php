@@ -32,6 +32,9 @@
 
     <!-- Responsive datatable examples -->
     <link href="{{ asset('assets/libs/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css') }}" rel="stylesheet" type="text/css" />
+    <!-- choices css -->
+    <link href="{{ asset('assets/libs/choices.js/public/assets/styles/choices.min.css') }}" rel="stylesheet" type="text/css" />
+
 
 </head>
 
@@ -329,8 +332,9 @@
                                 <a href="{{ route('all.category') }}" class="dropdown-item" data-key="t-calendar">All Category</a>
                                 <a href="{{ route('add.category') }}" class="dropdown-item" data-key="t-chat">Add Category</a>
                                 <a href="{{ route('all.subcategory') }}" class="dropdown-item" data-key="all-sub-category">All SubCategory</a>
-                                <a href="{{ route('add.subcategory') }}" class="dropdown-item" data-key="add-sub-category">Add SubCategory</a>
-                                
+                                <a href="{{ route('add.subcategory') }}" class="dropdown-item" data-key="add-sub-category">Add SubSubCategory</a>
+                                <a href="{{ route('all.subsubcategory') }}" class="dropdown-item" data-key="all-sub-sub-category">All SubSubCategory</a>
+                                <a href="{{ route('add.subsubcategory') }}" class="dropdown-item" data-key="add-sub-sub-category">Add SubCategory</a>
                             </div>
                         </li>
                         

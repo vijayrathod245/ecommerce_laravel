@@ -171,6 +171,11 @@
 <!-- Responsive examples -->
 <script src="{{ asset('assets/libs/datatables.net-responsive/js/dataTables.responsive.min.js') }}"></script>
 <script src="{{ asset('assets/libs/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js') }}"></script>
+<!-- choices js -->
+<script src="{{ asset('assets/libs/choices.js/public/assets/scripts/choices.min.js') }}"></script>
+<!-- init js -->
+<script src="{{ asset('assets/js/pages/form-advanced.init.js') }}"></script>
+
 
 <!-- Datatable init js -->
 <!--<script src="{{ asset('assets/js/pages/datatables.init.js') }}"></script>-->
